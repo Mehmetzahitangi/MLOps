@@ -8,7 +8,7 @@ https://github.com/DataTalksClub/mlops-zoomcamp
 This is a draft and will change. 
 
 
-### [Module 1: Introduction](01-intro)
+### Module 1: Introduction
 
 * What is MLOps
 * MLOps maturity model
@@ -19,7 +19,7 @@ This is a draft and will change.
 * Homework
 
 
-### [Module 2: Experiment tracking and model management](02-experiment-tracking)
+### Module 2: Experiment tracking and model management
 
 * Experiment tracking intro
 * Getting started with MLflow

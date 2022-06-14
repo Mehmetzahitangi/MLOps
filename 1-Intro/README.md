@@ -119,6 +119,7 @@ Operation metrics
 No experiment tracking
 No Reproducibility
 DS separated from engineers
+
 2. Automated Training
 
 Training Pipeline
@@ -127,11 +128,13 @@ Model registry
 Low Friction but manual deployment
 DS work with engineers.
 Depend always on a DS expertise to deliver other model
+
 3. Automated Deployment
 
 Easy to deploy model - ML Plataform - by an API call
 A/B test to compare models - in the ML Plataform - not covered in this course
 Model Monitoring
+
 4. Full MLOps Automation
 
 Automating training, re-training, and deployment

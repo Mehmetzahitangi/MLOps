@@ -101,3 +101,38 @@ Note: I am on Windows Laptop, hence all the configurations done locally are pert
   ```
 
 ## Do not forget to stop the EC2 instance if not in use.
+
+
+MLOps maturity model
+Different levels:
+
+0. Nothing Automated
+
+No automation
+All code in jupyter (bad coded)
+It is ok, for PoC levels
+1. Devops, No MLOps (Covered in the engineering part, but not in data science one)
+
+Releases are automate
+CI/CD
+Operation metrics
+No experiment tracking
+No Reproducibility
+DS separated from engineers
+2. Automated Training
+
+Training Pipeline
+Experiment Tracking
+Model registry
+Low Friction but manual deployment
+DS work with engineers.
+Depend always on a DS expertise to deliver other model
+3. Automated Deployment
+
+Easy to deploy model - ML Plataform - by an API call
+A/B test to compare models - in the ML Plataform - not covered in this course
+Model Monitoring
+4. Full MLOps Automation
+
+Automating training, re-training, and deployment
+Explanation: https://docs.microsoft.com/en-us/azure/architecture/example-scenario/mlops/mlops-maturity-model
